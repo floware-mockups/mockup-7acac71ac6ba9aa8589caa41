@@ -1,0 +1,302 @@
+{
+  "title": "Agenda eventi e iscrizioni",
+  "description": "Gestisci il calendario culturale della biblioteca, monitora le iscrizioni e verifica i posti disponibili. Dati di prova inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi e delle iscrizioni, con accesso rapido alle attività in programma.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "84"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "37"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Categoria",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti tra le stelle",
+          "12/06/2026",
+          "17:00",
+          "Lettura",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio di carta lunare",
+          "14/06/2026",
+          "10:30",
+          "Laboratorio",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Voci dal giardino blu",
+          "16/06/2026",
+          "18:00",
+          "Incontro",
+          "30",
+          "21",
+          "9"
+        ],
+        [
+          "Piccoli esploratori di Nubi",
+          "18/06/2026",
+          "16:30",
+          "Lettura",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Mappe e mondi immaginari",
+          "20/06/2026",
+          "11:00",
+          "Laboratorio",
+          "18",
+          "13",
+          "5"
+        ],
+        [
+          "Musiche per una sera quieta",
+          "23/06/2026",
+          "19:00",
+          "Concerto",
+          "36",
+          "28",
+          "8"
+        ],
+        [
+          "Il club delle storie luminose",
+          "25/06/2026",
+          "17:30",
+          "Incontro",
+          "22",
+          "22",
+          "0"
+        ],
+        [
+          "Pagine in movimento",
+          "27/06/2026",
+          "10:00",
+          "Laboratorio",
+          "20",
+          "14",
+          "6"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra il programma; inserisci nuovi eventi culturali.",
+      "metrics": [
+        {
+          "label": "Eventi totali",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "37"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Categoria",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti tra le stelle",
+          "12/06/2026",
+          "17:00",
+          "Lettura",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio di carta lunare",
+          "14/06/2026",
+          "10:30",
+          "Laboratorio",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Voci dal giardino blu",
+          "16/06/2026",
+          "18:00",
+          "Incontro",
+          "30",
+          "21",
+          "9"
+        ],
+        [
+          "Piccoli esploratori di Nubi",
+          "18/06/2026",
+          "16:30",
+          "Lettura",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Mappe e mondi immaginari",
+          "20/06/2026",
+          "11:00",
+          "Laboratorio",
+          "18",
+          "13",
+          "5"
+        ],
+        [
+          "Musiche per una sera quieta",
+          "23/06/2026",
+          "19:00",
+          "Concerto",
+          "36",
+          "28",
+          "8"
+        ],
+        [
+          "Il club delle storie luminose",
+          "25/06/2026",
+          "17:30",
+          "Incontro",
+          "22",
+          "22",
+          "0"
+        ],
+        [
+          "Pagine in movimento",
+          "27/06/2026",
+          "10:00",
+          "Laboratorio",
+          "20",
+          "14",
+          "6"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Categoria",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Verifica le iscrizioni per evento e registra nuove partecipazioni usando nomi di fantasia.",
+      "metrics": [
+        {
+          "label": "Iscrizioni registrate",
+          "value": "8"
+        },
+        {
+          "label": "Confermate",
+          "value": "7"
+        },
+        {
+          "label": "In attesa",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Racconti tra le stelle",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Vela",
+          "Laboratorio di carta lunare",
+          "05/06/2026",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Voci dal giardino blu",
+          "05/06/2026",
+          "In attesa"
+        ],
+        [
+          "Rima",
+          "Piccoli esploratori di Nubi",
+          "06/06/2026",
+          "Confermata"
+        ],
+        [
+          "Tilo",
+          "Mappe e mondi immaginari",
+          "06/06/2026",
+          "Confermata"
+        ],
+        [
+          "Mira",
+          "Musiche per una sera quieta",
+          "07/06/2026",
+          "Confermata"
+        ],
+        [
+          "Soli",
+          "Il club delle storie luminose",
+          "07/06/2026",
+          "Confermata"
+        ],
+        [
+          "Enea",
+          "Pagine in movimento",
+          "08/06/2026",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ]
+    }
+  ]
+}
